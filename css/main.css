@@ -42,10 +42,64 @@ a{
 }
 #nav a{
   color: #333;
+  /* text-transform: ease-in-out all .4s; */
+  transition: ease-in all .4s;
 }
 #nav a:hover{
   color: #e74c3c;
+  font-size: 20px;
+  /* transition: ease-in all .4s; */
 }
 main{
   padding: 76px 0 0;
  }
+ .pic{
+   background: gray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .pic p{
+   padding:35px;
+   font-size: 16px;
+   color: white;
+ }
+.pic img{
+  margin: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+.projects{
+  margin: 100px;
+}
+.projects h1{
+  font-size: 40px;
+  text-align: center;
+}
+.projectPix{
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+.projectPix img{
+  margin-bottom: 100px;
+  width: 250px;
+  height: 250px;
+}
+footer{
+    background: gray;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .social .fab{
+    font-size: 25px;
+    margin: 0 15px;
+  }
+  footer .social .fab li{
+    color: #333;
+    transition: ease-in all .4s;
+  }
+  
