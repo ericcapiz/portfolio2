@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Contact</title>
+  <title>Eric Capiz</title>
+  <script src="https://kit.fontawesome.com/9829fc86e6.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
@@ -15,7 +16,7 @@
 <header id="header">
   <div class="container">
     <div class="logo">
-      <a href="#">Contact</a>
+      <a href="#">Eric Capiz</a>
     </div>
   </div>
   <nav id="nav">
@@ -27,7 +28,45 @@
     </ul>
   </nav>
 </header>
-<body>
-    <h1> CONTACT </h1>
+
+<main>
+    <section class="heroBlock">
+      <div id="form">		
+		<div id="contact-area">
+			<form method="post" action="contactengine.php">
+				<label for="Name">Name:</label>
+				<input type="text" name="Name" id="Name" />
+				<label for="City">City:</label>
+				<input type="text" name="City" id="City" />
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" />
+				<label for="Message">Message:</label><br />
+				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+				<input type="submit" name="submit" value="Submit" class="submit-button" />
+            </form>
+		</div>
+	</div>
+    </section>
+  </main>
+  <footer>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="social">
+    <nav id="nav">
+      <a href="facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="linkedin.com"><i class="fab fa-linkedin"></i></a>
+      <a href="github.com"><i class="fab fa-github-square"></i></a>
+    </nav>
+    </div>
+  </footer>
 </body>
+
 </html>
+
+
