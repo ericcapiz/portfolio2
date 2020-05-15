@@ -221,15 +221,7 @@ label {
     #nav{
       display: inline;
       margin: 10px;
-     /* display: flex; */
-     /* justify-content: center; */
       margin-left: 50px;
-    }
-    
-    .pic img{
-      margin: 50px;
-      width: 200px;
-      height: 200px;
     }
     
     .pic{
@@ -238,11 +230,14 @@ label {
       flex-wrap: wrap;
       justify-content: center;
     }
-    .projects{
-      /* margin-left: 200px; */
+
+    .pic img{
+      margin: 50px;
+      width: 200px;
+      height: 200px;
     }
+
     .projectPix{
-      /* margin-left: 180px; */
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -270,5 +265,29 @@ label {
        top: 50px;
       margin: 0 50px;
     }
+    }
+
+    @media (max-width: 800px){
+      .pic img{
+        margin: 50px;
+        width: 250px;
+        height: 250px;
+      }
+      
+      .pic{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 1100px){
+      .pic{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
     }
   
